@@ -9,7 +9,7 @@ data contains two columns source and destination eac edge in graph
     - source_node         int64  
     - destination_node    int64  
     
-<h2> Mapping the problem into supervised learning problem:<h3>
+<h2> Mapping the problem into supervised learning problem:<h2>
 - Generated training samples of good and bad links from given directed graph and for each link got some features like no of followers, is he followed back, page rank, katz score, adar index, some svd fetures of adj matrix, some weight features etc. and trained ml model based on these features to predict link. 
 - Some reference papers and videos :  
     - https://www.cs.cornell.edu/home/kleinber/link-pred.pdf
